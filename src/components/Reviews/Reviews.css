@@ -1,0 +1,42 @@
+.Reviews{
+    display: flex;
+    gap: 10rem;
+    padding: 0 2rem;
+}
+
+.left-r{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+}
+.left-r>:nth-child(1)
+{
+    color: var(--orange);
+    font-weight: bold;
+}
+.left-r>:nth-child(2),
+.left-r>:nth-child(3){
+    font-weight: bold;
+    font-size: 3rem;
+}
+.left-r>:nth-child(4){
+    text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.right-r{
+    flex: 1;
+    position: relative;
+}
+.right-r>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
