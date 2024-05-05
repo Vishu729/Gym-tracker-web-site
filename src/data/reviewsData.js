@@ -7,7 +7,7 @@ export const reviewsData = [
     image: image1,
     review:
       "Exceptional gym! The trainers are motivating, the equipment is top-notch, and the atmosphere is always energizing. A place where I've seen real results!",
-    name: 'EMILY RODRIGUEZ',
+    name: 'DAN MURPHY',
     status : 'MEMBER'
   },
   {
@@ -19,7 +19,7 @@ export const reviewsData = [
   {
     image : image3,
     review:' Highly recommend this gym! From the moment I walked in, I felt welcomed. The trainers are knowledgeable, and the facilities are excellent. A+',
-    name: 'SARAH THOMPSON',
+    name: 'MAX HOLLOWAY',
     status: "MEMBER"
   }
 ];
